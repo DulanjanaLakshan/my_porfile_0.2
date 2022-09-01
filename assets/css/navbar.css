@@ -10,16 +10,17 @@ nav{
     font-size: 25px;
     font-weight: bold;
     color: white;
-    padding: 0 100px;
+    margin: 20px;
 }
 nav ul{
     float: right;
+    top: 0;
     margin-right: 15px;
+    margin-top: 5px;
 }
 nav li{
     display: inline-block;
     margin: 0 10px;
-    line-height: 80px;
 }
 
 nav a{
@@ -35,6 +36,7 @@ nav a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    margin: 10px;
     float: right;
+    display: none;
 }
