@@ -1,46 +1,5 @@
-nav{
-    position: fixed;
-    height: 30px;
-    width: 100%;
-    background: transparent;
-    z-index: 1;
-}
-.logo{
-    font-family: 'Iceland', cursive;
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    margin: 20px;
-}
-nav ul{
-    float: right;
-    top: 0;
-    margin-right: 15px;
-    margin-top: 5px;
-}
-nav li{
-    display: inline-block;
-    margin: 0 10px;
-}
 
-nav a{
-    font-family: 'Iceland', cursive;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-#icon{
-    width: 20px;
-    height: 20px;
-    background-image: url("../img/icons8-menu-100.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 10px;
-    float: right;
-    display: none;
-}
-@media all and (max-width: 700px) {
+@media all and (max-width: 768px) {
     #icon{
         display: block;
     }
@@ -56,6 +15,7 @@ nav a{
         justify-content: center;
         text-align: center;
         left: -1000%;
+        transition: 1s;
     }
     nav li{
         display: block;
@@ -64,5 +24,11 @@ nav a{
     }
     nav a{
         font-size: 20px;
+    }
+    #h1_hed{
+        font-size: 25px;
+    }
+    #p_hed{
+        font-size: 15px;
     }
 }
