@@ -1,39 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Iceland', cursive;
 }
-nav{
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+nav {
     position: fixed;
     height: 30px;
     width: 100%;
     background: transparent;
     z-index: 1;
 }
-.logo{
-    font-family: 'Iceland', cursive;
+
+.logo {
     font-size: 25px;
     font-weight: bold;
     color: white;
     margin: 20px;
 }
-nav ul{
+
+nav ul {
     float: right;
     top: 0;
     margin-right: 15px;
     margin-top: 5px;
 }
-nav li{
+
+nav li {
     display: inline-block;
     margin: 0 10px;
 }
 
-nav a{
-    font-family: 'Iceland', cursive;
+nav a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-#icon{
+
+#icon {
     width: 20px;
     height: 20px;
     background-image: url("../img/icons8-menu-100.png");
@@ -44,11 +64,13 @@ nav a{
     float: right;
     display: none;
 }
-.bg{
-    position: absolute;
-    width: 100vw;
+
+/*-----------------------------------------------------------------*/
+.bg {
+    position: relative;
+    width: 100%;
     height: 85vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/main_background_01.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/main_background_01.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -56,28 +78,30 @@ nav a{
     justify-content: center;
     align-items: center;
 }
+
 /*    font-family: 'Iceland', cursive;*/
-#my_image{
+#my_image {
     width: 150px;
     height: 150px;
-    background: linear-gradient( rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.13)), url("../img/my_image.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.13)), url("../img/my_image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 100%;
 }
-#h1_hed{
+
+#h1_hed {
     color: white;
-    font-family: 'Iceland', cursive;
     font-size: 45px;
     margin: 0;
 }
-#p_hed{
+
+#p_hed {
     color: white;
-    font-family: 'Iceland', cursive;
     font-size: 20px;
 }
-#button{
+
+#button {
     width: 250px;
     height: 70px;
     display: flex;
@@ -85,7 +109,8 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-#button div{
+
+#button div {
     background-color: blue;
     width: 50%;
     height: 50%;
@@ -94,7 +119,45 @@ nav a{
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: 'Iceland', cursive;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/*------------------------------------------------------------*/
+#about_section {
+    position: relative;
+    width: 80%;
+    height: 250px;
+    top: -120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*font-family: 'Imperial Script', cursive;*/
+#details{
+    width: 20%;
+    margin: 10px;
+}
+#about{
+    width: 80%;
+    padding: 30px;
+}
+#about p{
+    font-family: 'Imperial Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+#about h3{
+    float: right;
+    margin-right: 20px;
+    font-family: 'Imperial Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
 }
