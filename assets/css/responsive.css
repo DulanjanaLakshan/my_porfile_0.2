@@ -17,7 +17,7 @@
         font-size: 15px;
     }
     #about h3{
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -65,5 +65,8 @@
     #details{
         justify-content: start;
         align-items: start;
+    }
+    #service{
+        top: 55px;
     }
 }
