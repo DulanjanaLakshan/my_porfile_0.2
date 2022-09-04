@@ -184,17 +184,126 @@ nav a {
     grid-gap: 1em;
 }
 .service_item{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.service_item a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
 .service_image{
     width: 100px;
     height: 100px;
-    background-image: url("../img/istockphoto-1250911025-170667a-removebg-preview.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 20px;
+}
+.web{
+    background-image: url("../img/service_icon/icons8-monitor-64.png");
+}
+.mobile{
+    background-image: url("../img/service_icon/icons8-phone-64.png");
+}
+.desktop{
+    background-image: url("../img/service_icon/icons8-monitor-64 (1).png");
+}
+.graphic{
+    background-image: url("../img/service_icon/icons8-graphic-64.png");
+}
+.e-commerce{
+    background-image: url("../img/service_icon/icons8-e-commerce-64.png");
+}
+/*----------------------------------------*/
+#work_expertise{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#work_image{
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/ok.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#work_ex{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title h2{
+    font-size: 35px;
+}
+.expertise{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 3em;
+    height: 80%;
+}
+.ex_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ex_item h4{
+    color: blue;
+    font-size: 20px;
+}
+.ex_image{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.react{
+    background-image: url("../img/ex_icon/icons8-react-80.png");
+}
+.bootstrap{
+    background-image: url("../img/ex_icon/icons8-bootstrap-48.png");
+}
+.redux{
+    background-image: url("../img/ex_icon/icons8-redux-48.png");
+}
+.html{
+    background-image: url("../img/ex_icon/icons8-html-5-48.png");
+}
+.css{
+    background-image: url("../img/ex_icon/icons8-css3-48.png");
+}
+.js{
+    background-image: url("../img/ex_icon/icons8-node-js-48.png");
+}
+.node{
+    background-image: url("../img/ex_icon/icons8-node-js-48.png");
+}
+.android{
+    background-image: url("../img/ex_icon/icons8-android-os-48.png");
+}
+.java{
+    background-image: url("../img/ex_icon/icons8-java-48.png");
+}
+.mongo{
+    background-image: url("../img/ex_icon/icons8-mongodb-a-cross-platform-document-oriented-database-program-48.png");
+}
+.mysql{
+    background-image: url("../img/ex_icon/icons8-mysql-logo-48.png");
 }
