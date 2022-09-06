@@ -93,6 +93,17 @@
         top: 185px;
         position: relative;
     }
+    .footer{
+        height: 70vh;
+        position: relative;
+        top: 681px;
+    }
+    .d-f{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media all and (max-width: 1250px) {
     #about_section{
