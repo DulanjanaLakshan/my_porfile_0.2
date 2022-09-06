@@ -22,9 +22,9 @@
 
 nav {
     position: fixed;
-    height: 30px;
+    height: 35px;
     width: 100%;
-    background: transparent;
+    background-color: black;
     z-index: 1;
 }
 
@@ -70,7 +70,7 @@ nav a {
     position: relative;
     width: 100%;
     height: 85vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/main_background_01.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.7)), url("../img/main_background_01.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -83,7 +83,7 @@ nav a {
 #my_image {
     width: 150px;
     height: 150px;
-    background: linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.13)), url("../img/my_image.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/my_image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ nav a {
     font-size: 20px;
 }
 
-#button {
+.button {
     width: 250px;
     height: 70px;
     display: flex;
@@ -110,7 +110,7 @@ nav a {
     align-items: center;
 }
 
-#button div {
+.button div {
     background-color: blue;
     width: 50%;
     height: 50%;
@@ -121,6 +121,10 @@ nav a {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color: white;
 }
 
 /*------------------------------------------------------------*/
@@ -244,6 +248,7 @@ nav a {
     width: 100%;
     height: 20%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -251,6 +256,7 @@ nav a {
     font-size: 35px;
 }
 .expertise{
+    position: relative;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
@@ -306,4 +312,96 @@ nav a {
 }
 .mysql{
     background-image: url("../img/ex_icon/icons8-mysql-logo-48.png");
+}
+/*-----------------------------------------------------------*/
+
+#my_project{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title_project{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+}
+.my_projects{
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tesla{
+    background-image: url("../img/projects/tesla.png");
+}
+.google{
+    background-image: url("../img/projects/google_clone.png");
+}
+.image{
+    background-image: url("../img/projects/image_slider.png");
+}
+.lodging{
+    background-image: url("../img/projects/loding_page.png");
+}
+.pos{
+    background-image: url("../img/projects/pos.png");
+}
+.assigment{
+    background-image: url("../img/projects/assingment_2.png");
+}
+/*---------------------------------------------------------------------*/
+#contact_me{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.con_box{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.con_img{
+    width: 265px;
+    height: 265px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.phone{
+     background-image: url("../img/phone.png");
+ }
+.website{
+     background-image: url("../img/website.png");
+ }
+.email{
+     background-image: url("../img/email.png");
+ }
+.github{
+     background-image: url("../img/github.png");
+ }
+.con-text{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
