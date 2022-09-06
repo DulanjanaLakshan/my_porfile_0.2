@@ -76,7 +76,12 @@
         height: 130vh
     }
     #work_expertise{
-        top: 50px;
+        top: 185px;
+        position: relative;
+    }
+    #my_project{
+        position: relative;
+        top: 200px;
     }
     .expertise{
         grid-template-columns: repeat(2, 3fr);
@@ -88,15 +93,19 @@
     #project{
         grid-template-columns: repeat(2,1fr);
     }
+    #contact_me{
+        position: relative;
+        top: 200px;
+    }
     .con_box{
         flex-direction: column;
-        top: 185px;
+        top: 360px;
         position: relative;
     }
     .footer{
         height: 70vh;
         position: relative;
-        top: 681px;
+        top: 1050px;
     }
     .d-f{
         display: flex;
@@ -120,13 +129,31 @@
         top: 55px;
     }
     #service_body{
+        top: 78px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2em;
+        position: relative;
     }
     #work_image{
         display: none;
     }
     .con_box{
         justify-content: space-evenly;
+    }
+    #work_ex{
+        position: relative;
+        top: 150px;
+    }
+    #my_project{
+        position: relative;
+        top: 200px;
+    }
+    #contact_me{
+        position: relative;
+        top: 200px;
+    }
+    .footer{
+        position: relative;
+        top: 200px;
     }
 }
