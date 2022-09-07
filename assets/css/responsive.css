@@ -76,7 +76,7 @@
         height: 130vh
     }
     #work_expertise{
-        top: 185px;
+        top: 0;
         position: relative;
     }
     #my_project{
@@ -102,16 +102,15 @@
         top: 360px;
         position: relative;
     }
-    .footer{
-        height: 70vh;
-        position: relative;
-        top: 1050px;
-    }
     .d-f{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .footer{
+        height: 70vh;
+        top: 1050px;
     }
 }
 @media all and (max-width: 1250px) {
@@ -150,10 +149,11 @@
     }
     #contact_me{
         position: relative;
-        top: 200px;
+        top: 237px;
+        height: 83vh;
     }
     .footer{
         position: relative;
-        top: 200px;
+        bottom: -222px;
     }
 }
